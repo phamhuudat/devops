@@ -15,3 +15,7 @@ docker run -d --rm --name postgresql --net=todo-app -e POSTGRES_USER=postgres -e
 ```sh
 docker run -d --rm --name golang -p 8081:8080 --net=todo-app thuongnn1997/todo-app:latest
 ```
+### 5. Test
+```sh
+http://localhost:8081
+```
